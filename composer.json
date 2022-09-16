@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-forms",
+    "name": "zymawy/laravel-forms",
     "description": "Rinvex Forms is a dynamic form builder for Laravel, it's like the missing gem, the possibilities of using it are endless! With flexible API and powerful features you can build almost every kind of complex form with ease.",
     "type": "library",
     "keywords": [
