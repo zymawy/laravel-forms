@@ -32,8 +32,8 @@ class RollbackCommand extends Command
         $this->alert($this->description);
 
         $path = config('rinvex.forms.autoload_migrations') ?
-            'vendor/rinvex/laravel-forms/database/migrations' :
-            'database/migrations/rinvex/laravel-forms';
+            'vendor/zymawy/laravel-forms/database/migrations' :
+            'database/migrations/zymawy/laravel-forms';
 
         if (file_exists($path)) {
             $this->call('migrate:reset', [
